@@ -52,10 +52,12 @@ Task_1:Pytorch的基本概念.
 >> 定义一个神经网络
 >> 
 >> https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html#sphx-glr-beginner-blitz-neural-networks-tutorial-py
+
 >> '''
 >> 
 >> 
 >> class Net(nn.Module):
+
 >>     def __init__(self):
 >>         super(Net, self).__init__()
 >>         #  conv1层，输入的灰度图，所以 in_channels=1, out_channels=6 说明使用了6个滤波器/卷积核，
