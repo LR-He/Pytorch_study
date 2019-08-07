@@ -23,6 +23,8 @@ Task_1:Pytorch的基本概念.
 
 7.通用代码实现流程(实现一个深度学习的代码流程)。
 >> 我对深度学习不了解，只能复制代码来进行体验了解。我在网上找了定义CNN网络的代码来体验。代码如下：
+
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
