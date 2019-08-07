@@ -57,7 +57,6 @@ Task_1:Pytorch的基本概念.
 >> 
 >> 
 >> class Net(nn.Module):
-
 >>     def __init__(self):
 >>         super(Net, self).__init__()
 >>         #  conv1层，输入的灰度图，所以 in_channels=1, out_channels=6 说明使用了6个滤波器/卷积核，
@@ -91,7 +90,6 @@ Task_1:Pytorch的基本概念.
 >>         for s in size:
 >>             num_features *= s
 >>         return num_features
->> 
 >> 
 >> net = Net()
 >> print(net)
